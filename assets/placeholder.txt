@@ -1,0 +1,11 @@
+# Assets Directory
+
+This directory is for storing static assets such as:
+- Molecular structure images
+- Icons and symbols
+- Font files (if needed locally)
+- CSS files (if separated from main app)
+- Any other static resources
+
+Note: For the MVP version, all styling is included directly in the xeno_app.py file,
+but this directory can be used to store external assets if the project expands.

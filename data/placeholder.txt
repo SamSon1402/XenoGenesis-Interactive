@@ -1,0 +1,15 @@
+# Data Directory
+
+This directory is for storing data files such as:
+- Molecule structure data
+- Target protein information
+- Property prediction models
+- SMILES libraries
+- Substructure templates
+
+For the current MVP version, all data is stored directly in the xeno_app.py file for simplicity.
+However, as the project evolves, external data files can be placed here to:
+- Separate data from code
+- Make the application more maintainable
+- Allow for easier updates to molecule and target data
+- Support loading real molecular data sources in the future
